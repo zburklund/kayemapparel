@@ -1,0 +1,60 @@
+<style>
+#main {
+  width: calc(100% - 280px);
+  margin-left: 280px;
+}
+#header {
+  width: 280px;
+}
+  .collection-type-products.view-list #main {
+    padding-left: 280px;
+  }
+a:focus {
+  outline: none;
+}
+.navigation a.active-link {
+  color: #e60039;
+}
+div.image-wrapper.sqs-active-slide {
+  text-align: center;
+}
+div.image-wrapper.sqs-active-slide img.thumb-image.loaded {
+  max-width: 1000px;
+}
+@media screen and (max-width: 1025px) {
+  #header {
+    width: 100%;
+  }
+  #main {
+    width: 100%;
+    margin-left:0px;
+  }
+  .collection-type-products.view-list #main {
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 641px) {
+  div.col.sqs-col-12.span-12>div.sqs-block.gallery-block {
+    display: none;
+  }
+}
+.folder-child {
+  display: none;
+}
+.navigation a {
+  font-weight: 500;
+}
+.navigation a:hover {
+  font-weight: 600;
+}
+.navigation > ul ul a {
+  padding: 8px 0;
+}
+.navigation-secondary a {
+  padding: 12px 0;
+}
+.hide-menu {
+  display: none;
+}
+</style>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
